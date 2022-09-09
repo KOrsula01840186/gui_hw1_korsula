@@ -1,0 +1,103 @@
+/*
+File: styles.css
+GUI Assignment: Creating Your First Web Page
+Kevin Orsula, UMass Lowell Computer Science, kevin_orsula@student.uml.edu
+Copyright (c) 2021 by Kevin Orsula. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by KO on Sept 8, 2022 at 10:02 PM
+*/
+body {                                  /*This is the styling of the background, which includes the color and margins*/
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    text-align: center;
+}
+h1 {                                    /*This makes the first header have a black border and white background*/
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+}
+
+h {                                     /*These are the non specified headers within the boxes setting font size*/
+    font-size: 30px;
+}
+
+.Gry {                                  /*Gryffindor box setting background red, and changing size and position so all four boxes fit on the screen with included images*/
+    position: relative;
+    width: calc(420px - 20px);
+    height: calc(420px - 20px);
+    background: red;
+    float: left;
+    margin: 37px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.Gry img {                               /*Sizing the image within the Gryffindor box to fit*/
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+.Huf {                                   /*Hufflepuff box setting background yellow, and changing size and position so all four boxes fit on the screen with included images*/
+    position: relative;
+    width: calc(420px - 20px);
+    height: calc(420px - 20px);
+    background: yellow;
+    float: left;
+    margin: 37px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.Huf img {                               /*Sizing the image within the Hufflepuff box to fit*/
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+.Rav {                                   /*Ravenclaw box setting background blue, and changing size and position so all four boxes fit on the screen with included images*/
+    position: relative;
+    width: calc(420px - 20px);
+    height: calc(420px - 20px);
+    background: blue;
+    float: left;
+    margin: 37px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.Rav img {                               /*Sizing the image within the Ravenclaw box to fit*/
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+.Sly {                                  /*Slytherin box setting background green, and changing size and position so all four boxes fit on the screen with included images*/
+    position: relative;
+    width: calc(420px - 20px);
+    height: calc(420px - 20px);
+    background: green;
+    float: left;
+    margin: 37px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.Sly img {                               /*Sizing the image within the Slytherin box to fit*/
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+
+table {                                  /*Styling the table to fill the whole screen, and have a solid outline*/
+    width: 100%;
+    border: 1px solid;
+}
+th, td{                                 /*Styling the cells of the table to be outlined*/
+    border: 1px solid;
+}
+
+h4 {                                     /*Changing fonts for two headers*/
+    font-size: small;
+}
+h5 {
+    font-size: medium;
+}
