@@ -25,7 +25,7 @@ h {                                     /*These are the non specified headers wi
 .Gry {                                  /*Gryffindor box setting background red, and changing size and position so all four boxes fit on the screen with included images*/
     position: relative;
     width: calc(420px - 20px);
-    height: calc(420px - 20px);
+    height: calc(440px - 20px);
     background: red;
     float: left;
     margin: 37px;
@@ -35,13 +35,13 @@ h {                                     /*These are the non specified headers wi
 }
 .Gry img {                               /*Sizing the image within the Gryffindor box to fit*/
     width: 100%;
-    height: 90%;
+    height: 85%;
     object-fit: contain;
 }
 .Huf {                                   /*Hufflepuff box setting background yellow, and changing size and position so all four boxes fit on the screen with included images*/
     position: relative;
     width: calc(420px - 20px);
-    height: calc(420px - 20px);
+    height: calc(440px - 20px);
     background: yellow;
     float: left;
     margin: 37px;
@@ -51,13 +51,13 @@ h {                                     /*These are the non specified headers wi
 }
 .Huf img {                               /*Sizing the image within the Hufflepuff box to fit*/
     width: 100%;
-    height: 90%;
+    height: 85%;
     object-fit: contain;
 }
 .Rav {                                   /*Ravenclaw box setting background blue, and changing size and position so all four boxes fit on the screen with included images*/
     position: relative;
     width: calc(420px - 20px);
-    height: calc(420px - 20px);
+    height: calc(440px - 20px);
     background: blue;
     float: left;
     margin: 37px;
@@ -67,13 +67,13 @@ h {                                     /*These are the non specified headers wi
 }
 .Rav img {                               /*Sizing the image within the Ravenclaw box to fit*/
     width: 100%;
-    height: 90%;
+    height: 85%;
     object-fit: contain;
 }
 .Sly {                                  /*Slytherin box setting background green, and changing size and position so all four boxes fit on the screen with included images*/
     position: relative;
     width: calc(420px - 20px);
-    height: calc(420px - 20px);
+    height: calc(440px - 20px);
     background: green;
     float: left;
     margin: 37px;
@@ -83,7 +83,7 @@ h {                                     /*These are the non specified headers wi
 }
 .Sly img {                               /*Sizing the image within the Slytherin box to fit*/
     width: 100%;
-    height: 90%;
+    height: 85%;
     object-fit: contain;
 }
 
